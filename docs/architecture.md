@@ -190,7 +190,7 @@ En las vistas solamente debe ir lo relacionado con la UI, widgets, texto, etc. [
 
 `/lib/app/modules/podcast/controllers/podcast_controller.dart`
 
-`/lib/app/modules/podcast/controllers/podcast_binding.dart`
+`/lib/app/modules/podcast/bindings/podcast_binding.dart`
 
 El binding es el encargado de inyectar el controlador y las dependencias que necesiten ser utilizadas por el controlador. Al utilizar el widget del tipo `GetView` para las vistas automáticamente se tiene acceso al controlador correspondiente utilizando el atributo `controller`.
 
