@@ -1,8 +1,8 @@
-# cuba_pod
+# CubaPod
 
-A new Flutter project.
+CubaPod App made with Flutter.
 
-## Getting Started
+## Getting Started with Flutter
 
 This project is a starting point for a Flutter application.
 
