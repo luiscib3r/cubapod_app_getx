@@ -1,3 +1,4 @@
+import 'package:cuba_pod/app/theme/theme_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
@@ -24,7 +25,7 @@ class SettingsView extends GetView<SettingsController> {
                 children: [
                   GestureDetector(
                     onTap: () {
-                      Get.changeThemeMode(ThemeMode.light);
+                      ThemeController.to.setThemeMode(ThemeMode.light);
                     },
                     child: Container(
                       width: 180,
@@ -50,7 +51,7 @@ class SettingsView extends GetView<SettingsController> {
                 children: [
                   GestureDetector(
                     onTap: () {
-                      Get.changeThemeMode(ThemeMode.dark);
+                      ThemeController.to.setThemeMode(ThemeMode.dark);
                     },
                     child: Container(
                       width: 180,
