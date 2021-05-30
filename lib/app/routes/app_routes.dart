@@ -8,6 +8,7 @@ abstract class Routes {
   static const ROOT = _Paths.ROOT;
   static const PODCAST = _Paths.PODCAST;
   static const EPISODE = _Paths.EPISODE;
+  static const SETTINGS = _Paths.SETTINGS;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const ROOT = '/root';
   static const PODCAST = '/podcast';
   static const EPISODE = '/episode';
+  static const SETTINGS = '/settings';
 }

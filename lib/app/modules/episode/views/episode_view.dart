@@ -200,15 +200,9 @@ class EpisodeView extends GetView<EpisodeController> {
             children: [
               Text(
                 controller.actualTime,
-                style: TextStyle(
-                  color: Colors.white.withOpacity(0.5),
-                ),
               ),
               Text(
                 controller.totalTime,
-                style: TextStyle(
-                  color: Colors.white.withOpacity(0.5),
-                ),
               ),
             ],
           ),
@@ -249,7 +243,7 @@ class EpisodeView extends GetView<EpisodeController> {
                 if (controller.duration.inSeconds == 0) {
                   return;
                 }
-                
+
                 if (controller.playing) {
                   await controller.player.pause();
                   controller.update();

@@ -8,6 +8,8 @@ import 'package:cuba_pod/app/modules/podcast/bindings/podcast_binding.dart';
 import 'package:cuba_pod/app/modules/podcast/views/podcast_view.dart';
 import 'package:cuba_pod/app/modules/root/bindings/root_binding.dart';
 import 'package:cuba_pod/app/modules/root/views/root_view.dart';
+import 'package:cuba_pod/app/modules/settings/bindings/settings_binding.dart';
+import 'package:cuba_pod/app/modules/settings/views/settings_view.dart';
 
 part 'app_routes.dart';
 
@@ -36,6 +38,11 @@ class AppPages {
       name: _Paths.EPISODE,
       page: () => EpisodeView(),
       binding: EpisodeBinding(),
+    ),
+    GetPage(
+      name: _Paths.SETTINGS,
+      page: () => SettingsView(),
+      binding: SettingsBinding(),
     ),
   ];
 }

@@ -150,8 +150,14 @@ class PodcastView extends GetView<PodcastController> {
                 },
                 icon: Obx(
                   () => controller.heart
-                      ? Icon(CupertinoIcons.heart_fill)
-                      : Icon(CupertinoIcons.heart),
+                      ? Icon(
+                          CupertinoIcons.heart_fill,
+                          color: Colors.white,
+                        )
+                      : Icon(
+                          CupertinoIcons.heart,
+                          color: Colors.white,
+                        ),
                 ),
               ),
             ),

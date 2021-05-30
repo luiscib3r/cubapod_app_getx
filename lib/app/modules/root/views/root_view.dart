@@ -1,4 +1,5 @@
 import 'package:cuba_pod/app/modules/home/views/home_view.dart';
+import 'package:cuba_pod/app/modules/settings/views/settings_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
@@ -34,12 +35,7 @@ class RootView extends GetView<RootController> {
                 style: Get.textTheme.headline3,
               ),
             ),
-            Center(
-              child: Text(
-                'Settings',
-                style: Get.textTheme.headline3,
-              ),
-            ),
+            SettingsView(),
           ],
         ),
       );
