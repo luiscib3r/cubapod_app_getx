@@ -8,7 +8,7 @@ import 'package:flutter/widgets.dart';
 class Assets {
   Assets._();
 
-  static const AssetGenImage cubapod = AssetGenImage('assets/cubapod.jpg');
+  static const AssetGenImage cubapod = AssetGenImage('assets/cubapod.png');
 }
 
 class AssetGenImage extends AssetImage {
